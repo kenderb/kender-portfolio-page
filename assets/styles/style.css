@@ -21,9 +21,15 @@ img {
 
 /*vars*/
 .hamburguer {
+  color: #074a74;
+  border-radius: 0.4rem;
   margin: 1rem;
   font-size: 2rem;
-  background-color: transparent;
+  padding: 0.5rem;
+  padding-bottom: 0;
+  background-color: #f3ac3b;
+  -webkit-box-shadow: 5px 10px 18px #080808;
+          box-shadow: 5px 10px 18px #080808;
   border: none;
 }
 
@@ -44,18 +50,11 @@ img {
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header-container ul li {
-  margin: 0.3rem;
 }
 
 .header-container ul li:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .header-container a {
