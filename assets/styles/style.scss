@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+/*vars*/
+$blue-one:#157ebf;
+
+.hamburguer {
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+}
+
+.header-container {
+  background-image: url("../images/header_02_v02.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 14rem;
+  ul {
+    
+    display: flex;
+    list-style: none;
+    align-items: center;
+    li {
+      margin: 0.5rem;
+      margin-top: 1rem;
+      &:hover {
+        transform: scale(2);
+      }
+    }
+  }
+  a {
+    background: $blue-one;
+    padding: 0.5rem;
+    color: rgb(246, 246, 246);
+    text-decoration: none;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}
