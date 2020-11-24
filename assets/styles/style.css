@@ -21,10 +21,14 @@ img {
 
 /*vars*/
 .hamburguer {
-  margin-top: 0.5rem;
+  margin: 1rem;
   font-size: 2rem;
   background-color: transparent;
   border: none;
+}
+
+.button-container {
+  margin-left: auto;
 }
 
 .header-container {
@@ -47,7 +51,6 @@ img {
 
 .header-container ul li {
   margin: 0.3rem;
-  margin-top: 1rem;
 }
 
 .header-container ul li:hover {

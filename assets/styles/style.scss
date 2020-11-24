@@ -20,10 +20,14 @@ img {
 $blue-one:#157ebf;
 
 .hamburguer {
-  margin-top: 0.5rem;
+  margin: 1rem;
   font-size: 2rem;
   background-color: transparent;
   border: none;
+}
+
+.button-container {
+  margin-left: auto;
 }
 
 .header-container {
@@ -39,7 +43,6 @@ $blue-one:#157ebf;
     align-items: center;
     li {
       margin: 0.3rem;
-      margin-top: 1rem;
       &:hover {
         transform: scale(1.2);
       }
